@@ -1,7 +1,7 @@
 # Password-Generator
 
 
-This is a simple password generator tool. It allows users to generate secure passwords based on their specified criteria, such as length and character types.
+This is a simple <a href="https://lohallassou.github.io/Password-Generator/">Password Generator</a> tool. It allows users to generate secure passwords based on their specified criteria, such as length and character types.
 
 
 
