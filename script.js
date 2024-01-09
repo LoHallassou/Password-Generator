@@ -105,7 +105,13 @@ function getPasswordOptions() {
   if (!includeSpecialCharacters && !includeNumericCharacters && !includeLowerCasedCharacters && !includeUpperCasedCharacters) {
     alert("At least one character type must be selected.");
     return null;
- 
+
+    var passwordOptions = {
+    length: length,
+    includeSpecialCharacters: includeSpecialCharacters,
+    includeNumericCharacters: includeNumericCharacters,
+    includeLowerCasedCharacters: includeLowerCasedCharacters,
+    includeUpperCasedCharacters: includeUpperCasedCharacters
 }
 
 // Function for getting a random element from an array
