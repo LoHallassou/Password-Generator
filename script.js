@@ -107,16 +107,20 @@ function getPasswordOptions() {
     return null;
 
     var passwordOptions = {
-    length: length,
-    includeSpecialCharacters: includeSpecialCharacters,
-    includeNumericCharacters: includeNumericCharacters,
-    includeLowerCasedCharacters: includeLowerCasedCharacters,
-    includeUpperCasedCharacters: includeUpperCasedCharacters
+      length: length,
+      includeSpecialCharacters: includeSpecialCharacters,
+      includeNumericCharacters: includeNumericCharacters,
+      includeLowerCasedCharacters: includeLowerCasedCharacters,
+      includeUpperCasedCharacters: includeUpperCasedCharacters
+    };
+
+    return passwordOptions;
 }
 
 // Function for getting a random element from an array
 function getRandom(arr) {
  
+  
 
 }
 
