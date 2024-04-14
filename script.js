@@ -106,8 +106,8 @@ function getPasswordOptions() {
 //Makes sure user chooses at least one of character types
   if (!includeSpecialCharacters && !includeNumericCharacters && !includeLowerCasedCharacters && !includeUpperCasedCharacters) {
     alert("At least one character type must be selected.");
-    return null;
-
+    return null;}
+  else {
 //Makes the character types properties underneath the variable password options
     var passwordOptions = {
       length: length,
@@ -118,7 +118,7 @@ function getPasswordOptions() {
     };
 
     return passwordOptions;
-}
+  }
 }
 
 // Function for getting a random element from an array
@@ -168,6 +168,8 @@ function generatePassword() {
   return guaranteedCharacters.join('');
 
 }
+
+console.log(generatePassword());
 
 // Get references to the #generate element
 var generateBtn = document.querySelector('#generate');
